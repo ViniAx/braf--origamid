@@ -1,0 +1,29 @@
+/* Menu */
+
+.menu {
+  background-color: #252525;
+  padding: 20px 0;
+}
+
+.container > .logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.container > .nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.container > .nav  li {
+  display: inline-block;
+}
+
+.container > .nav a {
+  display: block;
+  padding: 10px; 
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8em;
+}

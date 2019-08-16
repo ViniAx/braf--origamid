@@ -1,0 +1,52 @@
+.locais {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.locais > .item {
+  clear: both;
+  margin: 60px auto;
+}
+
+.locais > .item::before, .locais > .item::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.locais > .item > .image {
+  width: 460px;
+  float: left;
+  display: block;
+  margin: 0 10px;
+}
+
+
+.locais .wrapper {
+  width: 460px;
+  float: left;
+  display: block;
+  margin: 0 10px;
+}
+
+.locais .wrapper > .title {
+  font-size: 3.6em;
+  margin-bottom: 20px;
+}
+
+.locais .wrapper > .paragraph {
+  font-size: 1.8em;
+  line-height: 1.6em;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+.locais .wrapper > .button {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}

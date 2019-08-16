@@ -1,0 +1,43 @@
+.sobre {
+  padding: 60px 0;
+}
+
+.sobre > .title {
+  text-align: center;
+  font-size: 3.6em;
+  margin-bottom: 60px;
+}
+
+.sobre > .container > .item {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.sobre > .container > .item > .image {
+  display: block;
+  max-width: 100%;
+}
+
+.sobre > .container > .item > .caption {
+  font-size: 3.6em;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  background-color: #252525;
+  width: 220px;
+  color: #fff;
+  padding: 5px 0 10px 0;
+  position: relative;
+  top: -25px;
+}
+
+.sobre > .paragraph {
+  font-size: 1.8em;
+  line-height: 2.24em;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 460px;
+}
