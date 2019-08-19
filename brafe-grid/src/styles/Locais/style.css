@@ -1,0 +1,16 @@
+.locais .wrapper > .title {
+  font-size: 3.6em;
+}
+
+.locais .wrapper > .paragraph {
+  font-size: 1.8em;
+  line-height: 1.6em;
+}
+
+.locais .wrapper > .button {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+}

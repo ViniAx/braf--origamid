@@ -1,0 +1,33 @@
+.newsletter {
+  background-color: #e7e4d8;
+}
+
+.newsletter .info > .title {
+  font-size: 3.6em;
+}
+
+.newsletter .info > .paragraph {
+  font-size: 2.4em;
+  font-style: italic;
+}
+
+.newsletter .form > .label {
+  display: none;
+}
+
+.newsletter .form > .input {
+  border: 3px solid #252525;
+  background-color: none;
+  font-size: 2.4em;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+.newsletter .form > .button {
+  background-color: #252525;
+  font-family: Georgia, serif;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

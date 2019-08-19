@@ -1,0 +1,47 @@
+.produtos {
+  background-color: #e7e4d8;
+  border-top: 3px solid #d6d3c8;
+  border-bottom: 3px solid #d6d3c8;
+}
+
+.produtos > .container > .item > .title {
+  font-size: 3.6em;
+}
+
+.produtos > .container > .item > .title::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: currentColor;
+  border-radius: 50%;
+  border: 5px solid #e7e4d8;
+  box-shadow: 0 0 0 10px currentColor;
+}
+
+.produtos > .container > .item > .title.-paulista::before {
+  color: #492901;
+}
+
+.produtos > .container > .item > .title.-carioca::before {
+  color: #c17139;
+}
+
+.produtos > .container > .item > .title.-mineiro::before {
+  color: #c17139;
+}
+
+.produtos > .container > .item > .paragraph {
+  font-size: 1.4em;
+  line-height: 2.2em;
+}
+
+.produtos > .button {
+  border: 3px solid;
+  color: #252525;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}

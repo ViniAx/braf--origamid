@@ -1,0 +1,9 @@
+.menu {
+  background-color: #252525;
+}
+
+.container > .nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8em;
+}
