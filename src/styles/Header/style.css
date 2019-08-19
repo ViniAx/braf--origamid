@@ -1,5 +1,3 @@
-/* Menu */
-
 .menu {
   background-color: #252525;
   padding: 20px 0;
@@ -26,4 +24,18 @@
   text-decoration: none;
   color: #fff;
   font-size: 1.8em;
+}
+
+@media (max-width: 739px) {
+  .menu {
+    text-align: center;
+  }
+  .container > .nav {
+    float: none;
+    clear: both;
+  }
+  .container > .logo {
+    float: none;
+    margin: 0 auto;
+  }
 }

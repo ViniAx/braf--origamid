@@ -49,3 +49,22 @@
   border: none;
   cursor: pointer;
 }
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .newsletter .container {
+    max-width: 720px
+  }
+  .newsletter .info, .newsletter .form, .newsletter .form > .input {
+    width: 340px;
+  }
+}
+
+@media (max-width: 739px) {
+  .newsletter .container {
+    max-width: 300px
+  }
+  .newsletter .info, .newsletter .form, .newsletter .form > .input  {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
+}

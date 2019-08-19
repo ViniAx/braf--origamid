@@ -41,3 +41,24 @@
   margin: 20px auto;
   max-width: 460px;
 }
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .sobre > .container {
+    max-width: 720px
+  }
+
+  .sobre > .container > .item {
+    width: 340px;
+  }
+}
+
+@media (max-width: 739px) {
+  .sobre > .container {
+    max-width: 300px;
+  }
+
+  .sobre > .container > .item {
+    width: 300px;
+    margin: 0; 
+  }
+}

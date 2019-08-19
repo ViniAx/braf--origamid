@@ -13,3 +13,18 @@
 .footer .image {
   float: right;
 }
+
+@media (max-width: 739px) {
+  .footer > .container {
+    max-width: 300px
+  }
+
+  .footer .paragraph {
+    float: none;
+    margin: 0;
+  }
+  .footer .image {
+    float: none;
+    margin: 20px 0;
+  }
+}
