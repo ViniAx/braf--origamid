@@ -1,5 +1,7 @@
 .sobre > .title {
   font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .sobre > .container > .item > .caption {
@@ -11,10 +13,16 @@
   background-color: #252525;
   color: #fff;
   position: relative;
+  width: 220px;
+  padding: 5px 0 10px 0;
+  top: -25px;
 }
 
 .sobre > .paragraph {
   font-size: 1.8em;
   line-height: 2.24em;
   font-style: italic;
+  max-width: 460px;
+  margin: 20px auto;
+  text-align: center;
 }

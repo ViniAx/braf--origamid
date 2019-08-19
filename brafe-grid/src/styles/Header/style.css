@@ -1,9 +1,32 @@
 .menu {
   background-color: #252525;
+  padding: 15px 0;
 }
 
-.container > .nav a {
+.container > .nav > ul {
+  float: right;
+}
+
+.container > .nav > ul > li{
+  display: inline-block;
+}
+
+.container > .nav> ul > li > a {
+  display: block;
   text-decoration: none;
   color: #fff;
   font-size: 1.8em;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 739px) {
+  .container > .nav > ul {
+    float: none;
+  }
+
+  .container > .nav > ul > li > a{
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
