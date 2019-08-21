@@ -1,0 +1,33 @@
+.intro {
+  background: url('/src/img/bg-intro.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  text-align: center;
+
+}
+
+.intro > .title {
+  text-transform: uppercase;
+  font-size: 4.8em;
+}
+
+.intro > .title::after {
+  content: '';
+  display: block;
+  width: 20px;  
+  height: 4px;
+  background-color: #fff;
+  margin: 10px auto;
+}
+
+.intro > .paragraph {
+  font-style: italic;
+  font-size: 1.8em;
+}
+
+@media (max-width: 739px) {
+  .intro {
+    padding: 60px 0;
+  }
+}

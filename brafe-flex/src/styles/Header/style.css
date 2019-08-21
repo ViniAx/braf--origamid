@@ -1,0 +1,42 @@
+.menu {
+  background-color: #252525;
+  padding: 15px auto;
+}
+
+.menu > .container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu > .container > .logo {
+  margin: 0 10px;
+}
+
+.menu > .container > .nav {
+  flex: 1;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.menu > .container > .nav ul {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.container > .nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 10px;
+}
+
+@media (max-width: 739px) {
+  .menu > .container > .logo, .menu > .container > .nav {
+    margin: 0;
+  }
+  .container > .nav a {
+    padding-left: 0;
+  }
+}

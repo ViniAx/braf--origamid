@@ -1,0 +1,47 @@
+.locais {
+  padding: 60px 0;
+}
+
+.locais > .item {
+  margin: 0 auto 40px;
+  display: flex;
+  max-width: 960px;
+}
+
+.locais  .locais-img, .locais  .wrapper {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.locais .locais-img > .image {
+  display: block;
+  max-width: 100%;
+}
+
+.locais .wrapper > .title {
+  font-size: 3.6em;
+  margin-bottom: 20px;
+}
+
+.locais .wrapper > .paragraph {
+  font-size: 1.8em;
+  line-height: 1.6em;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+.locais .wrapper > .button {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}
+
+@media (max-width: 739px) {
+  .locais  .locais-img, .locais  .wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

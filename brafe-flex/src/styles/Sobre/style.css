@@ -1,0 +1,54 @@
+.sobre {
+  padding: 60px 0;
+}
+
+.sobre > .container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sobre > .title {
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sobre > .container > .item {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.sobre > .container > .item > .image {
+  display: block;
+  max-width: 100%;
+}
+
+.sobre > .container > .item > .caption {
+  font-size: 3.6em;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  background-color: #252525;
+  color: #fff;
+  position: relative;
+  width: 220px;
+  padding: 5px 0 10px 0;
+  top: -25px;
+}
+
+.sobre > .paragraph {
+  font-size: 1.8em;
+  line-height: 2.24em;
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 460px;
+  text-align: center;
+}
+
+@media (max-width: 739px) {
+  .sobre > .container > .item {
+    margin: 0 auto;
+  }
+}

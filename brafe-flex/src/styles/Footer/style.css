@@ -1,0 +1,27 @@
+.footer {
+  background-color: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer > .container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer .paragraph {
+  font-size: 1.8em;
+  line-height: 2em;
+  margin: 0 10px;
+  flex: 1;
+}
+
+.footer-img {
+  margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+  .footer-img, .footer .paragraph {
+    margin: 10px 0;
+  }
+}
